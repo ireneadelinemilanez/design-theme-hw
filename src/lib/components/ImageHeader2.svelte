@@ -93,14 +93,7 @@ USAGE EXAMPLE:
     position: absolute;
     bottom: 0;
     left: 0;
-    right: 0;
-    width: 100%;
-    background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.3) 50%,
-      rgba(0, 0, 0, 0.6) 100%
-    );
+    width: 60%;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -110,15 +103,14 @@ USAGE EXAMPLE:
   }
 
   .content-wrapper {
-    max-width: var(--max-width);
-    margin: 0 auto;
+    max-width: 700px;
     width: 100%;
     padding: var(--spacing-lg) var(--spacing-md);
     color: var(--color-white);
   }
 
   .headline {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: 'Georgia';
     font-size: var(--font-size-6xl);
     font-weight: 700;
     line-height: var(--leading-tight);
@@ -128,13 +120,13 @@ USAGE EXAMPLE:
   }
 
   .deck {
-    font-family: var(--font-serif);
+    font-family: 'Georgia';
     font-size: var(--font-size-xl);
     line-height: var(--leading-normal);
     color: var(--color-white);
     margin: 0 0 var(--spacing-md) 0;
     max-width: 600px;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    text-shadow: 3px 5px 3px rgba(0, 0, 0, 0.5);
   }
 
   .article-meta {

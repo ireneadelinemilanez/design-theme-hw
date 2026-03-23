@@ -13,6 +13,7 @@
 
 <style>
   .big-number {
+    font-family: var(--font-sans);
     text-align: center;
     padding: var(--spacing-md);
     background-color: var(--color-accent);
