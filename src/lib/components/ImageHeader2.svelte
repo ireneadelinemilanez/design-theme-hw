@@ -4,8 +4,8 @@ ImageHeader2.svelte — NYT-style Image Header with Overlay Text
 
 USAGE EXAMPLE:
 <ImageHeader2
-  headline="Cesar Chavez and the UFW: Allegations of Sexual Abuse"
-  deck="Newly revealed documents challenge the founder's legacy"
+  headline="Title"
+  deck="Subhead"
   imageSrc="/path/to/image.jpg"
   byline="By Reporter Name"
   pubDate="2024-03-18"
